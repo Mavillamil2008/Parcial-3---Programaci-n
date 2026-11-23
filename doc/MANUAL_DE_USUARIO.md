@@ -546,19 +546,3 @@ Todas las excepciones requeridas por el enunciado heredan de `java.lang.Exceptio
 
 ---
 
-## 5. Guion de Grabación del Video de Sustentación (10 Minutos)
-
-Para asegurar la máxima nota en el criterio de presentación (pág. 15):
-
-* **Minuto 0:00 - 1:30 | Presentación de Arquitectura:**  
-  Mostrar la estructura de paquetes (`modelo`, `estructuras`, `excepciones`, `util`, `servicio`, `app`) y la herencia de `Persona` $\rightarrow$ `Estudiante` y `Profesor`.
-* **Minuto 1:30 - 3:30 | Demostración de Cola de Espera (Ejemplo 2):**  
-  Inscribir en la opción 8 a 5 estudiantes en `CALC101` (cupo 3). Mostrar cómo los últimos 2 van a la cola (Opción 10). Cancelar a uno con cupo (Opción 9) y mostrar la auto-asignación a Laura Díaz.
-* **Minuto 3:30 - 5:30 | Demostración de Pilas Undo/Redo (Ejemplo 3):**  
-  Inscribir a Ana en `CALC102`. Ejecutar Opción 19 (Deshacer) y mostrar que ya no está inscrita. Ejecutar Opción 20 (Rehacer) y comprobar que vuelve a inscribirse. Intentar rehacer nuevamente para mostrar `PilaDeshacerVaciaException`.
-* **Minuto 5:30 - 7:00 | Demostración de Matriz de Aula y Grafo Dijkstra (Ejemplos 4 y 5):**  
-  Reservar en Aula 101 (Lunes 8:00, 2 horas). Intentar reservar con conflicto (Lunes 9:00) para mostrar `HorarioConflictivoException`. Luego, calcular ruta más corta entre Ingeniería (0) y Rectoría (3) obteniendo los 330 metros.
-* **Minuto 7:00 - 8:30 | Reportes y Navegador con Pilas (Ejemplo 6 y Opción 18):**  
-  Generar reporte de `2024001` (Ana María Gómez). Abrir el navegador de reportes (Opción 18) y desplazarse con Atrás y Adelante entre vistas.
-* **Minuto 8:30 - 10:00 | Procesamiento Masivo CSV (Bonus Batch - Opción 21) y Cierre:**  
-  Ejecutar la opción 21 con `inscripciones.csv`, mostrar el encolamiento de las 100 peticiones y el resumen de aprobadas/rechazadas.

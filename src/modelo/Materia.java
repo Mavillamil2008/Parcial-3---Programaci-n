@@ -253,3 +253,4 @@ public class Materia {
     }
 }
 
+        //Consultar información de CupoLlenoException
